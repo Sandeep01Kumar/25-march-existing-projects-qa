@@ -9,8 +9,8 @@ app.get('/', (req, res) => {
   res.type('text').send('Hello, World!\n');
 });
 
-app.get('/evening', (req, res) => {
-  res.type('text').send('Good evening');
+app.get('/morning', (req, res) => {
+  res.type('text').send('Good Morning');
 });
 
 app.listen(port, hostname, () => {

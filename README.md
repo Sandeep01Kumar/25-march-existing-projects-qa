@@ -35,4 +35,4 @@ The server binds to `http://127.0.0.1:3000/`.
 | Method | Path       | Response           | Content-Type |
 |--------|------------|--------------------|--------------|
 | GET    | `/`        | `Hello, World!\n`  | text/plain   |
-| GET    | `/evening` | `Good evening`     | text/plain   |
+| GET    | `/morning` | `Good Morning`     | text/plain   |
